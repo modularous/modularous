@@ -18,3 +18,7 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+**/.DS_Store
+composer-dev.json
+composer-dev.lock
+packages
