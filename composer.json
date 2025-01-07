@@ -38,7 +38,8 @@
     "scripts": {
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php artisan package:discover --ansi"
+            "@php artisan package:discover --ansi",
+            "@php artisan modularity:flush"
         ],
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force",
@@ -55,7 +56,11 @@
         "pint:bail": "vendor/bin/pint --bail",
         "pint:dirty": "vendor/bin/pint --dirty",
         "pint:repair": "vendor/bin/pint --repair",
-        "pint:verbose": "vendor/bin/pint -v"
+        "pint:verbose": "vendor/bin/pint -v",
+        "reinstall": [
+            "@php artisan migrate:reset",
+            "@php artisan modularity:install --default --db-process"
+        ]
     },
     "extra": {
         "laravel": {
