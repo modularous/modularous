@@ -1,4 +1,8 @@
 {
+    "SystemNotification": true,
     "SystemUser": true,
-    "SystemPricing": true
+    "SystemUtility": true,
+    "SystemPricing": true,
+    "SystemPayment": true,
+    "SystemSetting": true
 }
