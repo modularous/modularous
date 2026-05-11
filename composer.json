@@ -84,6 +84,9 @@
     "extra": {
         "laravel": {
             "dont-discover": []
+        },
+        "branch-alias": {
+            "dev-main": "12.x-dev"
         }
     },
     "config": {
@@ -92,7 +95,8 @@
         "sort-packages": true,
         "allow-plugins": {
             "pestphp/pest-plugin": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "wikimedia/composer-merge-plugin": true
         }
     },
     "minimum-stability": "stable",
