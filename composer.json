@@ -1,9 +1,9 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "modularous/modularous",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "description": "The boilerplate laravel application for the Modularity toolkit.",
+    "keywords": ["modularous", "toolkit"],
     "license": "MIT",
     "require": {
         "php": "^8.2",
