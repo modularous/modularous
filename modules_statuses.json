@@ -4,5 +4,6 @@
     "SystemUtility": true,
     "SystemPricing": true,
     "SystemPayment": true,
-    "SystemSetting": true
+    "SystemSetting": true,
+    "Cms": true
 }
